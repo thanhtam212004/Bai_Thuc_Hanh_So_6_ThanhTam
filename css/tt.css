@@ -1,0 +1,32 @@
+h1{
+    color: rgb(rgb(0, 255, 221)) !important;
+}
+.noi-quy{
+    text-align: center;
+    color: red;
+    font-size: 4rem;
+}
+.bang-noi-quy{
+    background: #FEEED5
+}
+.border{
+    border:1px solid red
+}
+.border-3{
+    border-width: 10px;
+}
+.border-blue{
+    border-color: rgb( rgb(26, 26, 155));
+}
+.p-2{
+    padding: 5px;
+}
+.p-3{
+    padding: 10px;
+}
+.p-5{
+    padding: 20px;
+}
+.m-5{
+    margin: 10px;
+}

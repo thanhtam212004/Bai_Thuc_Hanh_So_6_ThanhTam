@@ -1,0 +1,59 @@
+*
+{
+    font-size: 10px;
+}
+h1
+{
+    color:red;
+    font-size: 4rem;
+
+}
+H2
+{
+color: red;
+text-transform: uppercase;
+text-align: center;
+font-size: 4rem;
+}
+i
+{
+    color: blue;
+    font-size: 1rem;
+}
+h3
+{
+    
+    text-align: center;
+    
+
+}
+b
+{ color:blue;
+  font-size: 3rem;
+}
+P{color: blue;
+font-size: 2rem;
+text-align: left;
+}
+
+.container
+{   
+    border-color: blue;
+    border-width: spx;
+    border-style: solid;
+    padding: 5px;
+}
+.container > div
+{
+    border: 2px solid cornflowerblue;
+    padding: 5px;
+   
+}
+.container > div:hover
+{
+    background: papayawhip ;
+}
+#ten_truong
+{
+    text-decoration: underline ;
+}

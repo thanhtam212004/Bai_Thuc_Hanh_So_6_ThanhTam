@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    min-height: 1300px;
+    background-image: url(../bg-top.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, bottom center;
+    background-color: #f2f2f2;
+    font-family: Cambria;
+    font-size: 13px;
+    
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 800px;
+    height: 60px;
+   margin-right: 70px;
+    color: #fff;
+    gap: 10px;
+   justify-content: center;
+   align-items: center;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header a {
+    color:#fff;
+    text-decoration: none;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header >div a:hover ,.xemthem a:hover {
+    opacity: 0.8;
+}
+.mid{
+margin-top: 445px;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 250.2px;
+    
+}
+.longden{
+    position: relative;
+    left:35px;
+}
+.mid >div form{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  height: 250px;
+width: 246px;
+
+}
+#tai-game{
+    object-fit: cover; 
+    width: 98.1%;
+    border-top: 2px solid rgb(26,42,72);
+border-bottom: 2px solid rgb(26,42,72);
+}
+#dang-ky{
+    position: relative;
+    right: 7px;
+    width: 253px; height: 122px; 
+    object-fit: none;
+    object-position: 14px;
+   margin-bottom: 2px;
+    
+}
+#thang-3{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-top:3px solid rgb(26,42,72);
+    border-bottom:2px solid rgb(26,42,72);
+    border-right: 7px;
+    border-left: 4px solid rgb(26,42,72);
+    
+height: 250px;
+}
+
+.mid3{
+    background-color: rgb(26,42,72);
+        width: 241px;
+        border-left: 12px solid rgb(26,42,72);
+border-right: 2px solid rgb(26,42,72);
+height: 250px;
+}
+.under{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+   gap: 5px;
+   width: 986px;
+margin-left: 105px;
+}
+.under1 {
+    display: flex;
+    flex-direction: column;
+    gap:10x;
+    margin-left: 47px;
+}
+.title{
+    background-image:url(../news-header-bg.png) ;
+    height: 64.3px;
+}
+.title ul{
+padding-top:29px ;
+padding-left: 23px;    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:40px;
+    font-family: sans-serif;
+    color:rgb(226, 174, 111);
+    font-weight: bold;
+}
+.tin{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    border-left:5px solid rgb(26,42,72) ;
+    border-bottom: 5px solid rgb(26,42,72);
+    border-right:5px solid rgb(26,42,72);
+    width: 655px;
+
+}
+.tin >div{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.timer{
+    font-size: 13px;
+    color:lightslategray;
+    font-style: italic;
+}
+.des{
+color: rgb(100, 99, 99);
+font-size: 15px;   
+font-weight: normal;
+}
+ .tin >div >div p:first-child {
+   padding-left: 10px;
+    color: rgb(196, 22, 39);
+    border-left: 5px solid rgb(196, 22, 39);
+font-size: 18.4px;
+font-weight:bolder;
+}
+.tin >div img{
+    border: 6px solid rgb(182,155,116);
+}
+.tin >div >div{
+width: 399px;
+}
+.xemthem a{
+    background-color: rgb(26,42,72);
+    color: gray;
+    border: 3px solid gray;
+    padding: 10px;
+    margin-bottom:24px ;
+position: relative;
+left: 435px;
+font-size: 12px;
+font-family: normal;
+}
+.under2{
+    display: flex;
+    flex-direction: column;
+}
+
+.under2 img{
+    border: 4px solid rgb(26,42,72);
+}
+.quangcao img{
+    width: 655px;
+}
+.end{
+    background-image: url(../bg-bottom.jpg);
+   width: 1865px;
+   height: 245px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.end p{
+ position: relative;
+ left: 10px;
+    font-weight: bolder;
+    text-align: center;
+    font-size:13px;
+}
+.end img{
+    object-fit: none;
+    width: 140px;
+    height: 40px; 
+ position: relative;
+ right: 33.5px;
+}

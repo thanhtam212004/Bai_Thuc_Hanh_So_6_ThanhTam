@@ -1,0 +1,46 @@
+.*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container
+{
+    display: flex;
+    min-height: 200px;
+    background-color: bisque;
+}
+.logo
+{
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2 rem;
+    color: aquamarine;
+    font-family: fantasy;
+}
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    color: #676767;
+    justify-content: end;
+    
+}
+.menu ul li
+{
+    margin-right: 20px;
+    padding: 5px;
+}
+.menu ul li:hover
+{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+button
+{
+    background-color: #407FE0
+    border:none; 
+    padding: 10px;
+    color: white;
+}

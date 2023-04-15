@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ .container
+    {
+     background-color: white;
+     color: black;
+     display: flex;
+    flex-direction: column;
+    font-family: sans-serif;   
+    }
+ .container .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+    .container .top >div{
+      min-width: 100px;
+      height: 50px;
+     background-color:white;
+     display: flex;
+     flex-direction: column;
+       justify-content:space-between;
+       
+ }
+ .container .top .logo img{
+    
+    width: 100%;
+     height: 100%;
+ }
+ .container .top .menu{
+    display: flex;
+    flex-direction: row;
+  font-size: 12px;
+ }
+ .container .top .menu ul {
+ gap: 10px;
+ list-style:none;
+ display: flex;
+ flex-direction: row;
+ margin-right:85px ;
+ 
+ } 
+ .container .top .menu ul li{
+    align-self: center;
+ }
+ .container .top .menu ul li:hover{
+    text-align: center;   
+    background-color: rgb(212, 213, 218);
+    cursor: pointer;
+ border-bottom: 2px solid orange;
+ }
+ .container .banner
+ {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+ }
+ .container .catalog ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 0px;
+     
+ }
+ 
+ .container .catalog ul li{
+    text-align:center;
+    width: 200px;
+    height:170px;
+    
+ }
+ .container .label >div
+ {
+    align-items:center;
+    padding-bottom: 40px;
+    
+ }
+ .container .label .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ .container .label.img  img{
+    object-fit:cover;
+    width: 14%;
+ }
+ .container .outro {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: yellow;
+ font-size:11px ;
+ padding: 30px;
+ 
+ }
+ .container .outro >div ul{
+    list-style: none;
+ }
+  .container .catalog ul li h2{
+  position: relative;
+  top: 125px;
+  left: 10px;
+  }
+.indent{
+    padding-left: 7em;
+    font-size: 35px;
+}

@@ -1,0 +1,57 @@
+*{
+    font-size:10px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.header > div{
+    min-width: 200px;
+}
+.header .logo{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 85px;
+}
+.header .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .profile .text{
+    font-size: 3rem;
+    color: rgb(128, 170, 44);
+}
+.header .profile .img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header .profile .img img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header .menu ul li{
+    padding: 25px;
+    font-size: 3rem;
+}
+.header .menu ul li:hover{
+    background-color: rgb(219, 215, 215);
+    cursor : pointer;
+    border-bottom: 2px solid rgb(57, 136, 57);
+}
+li{
+    list-style: none;
+}

@@ -1,0 +1,38 @@
+.container
+{
+display: flex;
+background-color: bisque ;
+}
+.container logo
+{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu
+{
+    flex-grow: 1;
+}
+.container menu ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: hotpink;
+}
+.container menu ul li
+{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 1px solid blueviolet;
+}
+.container menu ul li:hover
+{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 1px solid blueviolet;
+}
